@@ -1,4 +1,4 @@
-var students = ["Robert","Max","Alexia","Hose","Viktoria","Eva","Stella","Milena","Paul","Levin","Felix P.","Felix R.","Julia","Eda","Anna","Gabriela","Elisabeth","Faran","Simon","Lucas","Sophia","Laura","Fabian","Aniela","Ellie","Yeva"];
+var students = ["Robert","Max","Alexia","Jose","Viktoria","Eva","Stella","Milena","Paul","Levin","Felix P.","Felix R.","Julia","Eda","Anna","Gabriela","Elisabeth","Faran","Simon","Lucas","Sophia","Laura","Fabian","Aniela","Ellie","Yeva"];
 
 $(".btn").click(function() {
     cuztomSeatplace(students);

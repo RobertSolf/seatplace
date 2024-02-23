@@ -113,16 +113,16 @@
     margin-top: 25%; 
     left: 50%;
     transform: translateX(-50%);
-    background-color: #2D9596;
-    --bs-btn-border-color:#2D9596;
-    --bs-btn-hover-bg:#9AD0C2;
-    --bs-btn-active-bg: #2d9596;
+    background-color: #2D9596 !important;
+    --bs-btn-border-color:#2D9596 !important;
+    --bs-btn-hover-bg:#9AD0C2 !important;
+    --bs-btn-active-bg: #2d9596 !important;
     
 }
 body{
     background-color: #F1FADA;
 }
 h1{
-    text-align: center;
+    text-align: center !important;
     color: #2D9596;
 }
