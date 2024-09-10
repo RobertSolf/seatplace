@@ -13,7 +13,10 @@ function cuztomSeatplace(arr){
 }
 
 function display(){
-    for (let i = 0; i < 26; i++){
-        $(".item" + i).html(students[i]);
-    }
+    $('.all').animate({ opacity: 0 }, 1000, function() {
+        for (let i = 0; i < 26; i++){
+            $(".inText" + i).html(students[i]);
+        }
+        $(this).animate({ opacity: 1 }, 1000);
+    });
 }
